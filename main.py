@@ -1,12 +1,11 @@
 import os
 import sys
-import venue_management
+import venue_block
 
 # Configuration
 ACCESS_CODE = "123"
 MAX_ATTEMPTS = 3
 SESSION_LOG_FILE = "session_log.txt"
-
 
 def authenticate_manager():
     """Authenticates manager with 3-digit access code."""
@@ -25,7 +24,7 @@ def authenticate_manager():
                 continue
             
             if pass_input == ACCESS_CODE:
-                print("✓ Access Granted. Welcome to Venue Management System.")
+                print("✓ Access Granted. Welcome to Venue Block System.")
                 log_session("LOGIN_SUCCESS")
                 return True
             else:
@@ -61,7 +60,7 @@ def log_session(event):
 def display_main_menu():
     """Displays the main menu."""
     print("\n" + "="*60)
-    print("     VENUE MANAGEMENT BLOCK - MAIN MENU")
+    print("     VENUE BLOCK - MAIN MENU")
     print("="*60)
     print("1. Add Venue")
     print("2. Show All Venues")
@@ -108,19 +107,19 @@ def main():
             choice = input("Select an option (1-6): ").strip()
             
             if choice == "1":
-                venue_management.add_venue()
+                venue_block.add_venue()
                 log_session("ACTION: ADD_VENUE")
             
             elif choice == "2":
-                venue_management.show_all_venues()
+                venue_block.show_all_venues()
                 log_session("ACTION: SHOW_ALL_VENUES")
             
             elif choice == "3":
-                venue_management.show_venue()
+                venue_block.show_venue()
                 log_session("ACTION: SHOW_VENUE")
             
             elif choice == "4":
-                venue_management.delete_venue()
+                venue_block.delete_venue()
                 log_session("ACTION: DELETE_VENUE")
             
             elif choice == "5":
