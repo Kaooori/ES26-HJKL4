@@ -7,6 +7,7 @@ ACCESS_CODE = "123"
 MAX_ATTEMPTS = 3
 SESSION_LOG_FILE = "session_log.txt"
 
+
 def authenticate_manager():
     """Authenticates manager with 3-digit access code."""
     print("\n" + "="*60)
@@ -24,7 +25,7 @@ def authenticate_manager():
                 continue
             
             if pass_input == ACCESS_CODE:
-                print("✓ Access Granted. Welcome to Venue Block System.")
+                print("✓ Access Granted. Welcome to Venue Management System.")
                 log_session("LOGIN_SUCCESS")
                 return True
             else:
@@ -60,7 +61,7 @@ def log_session(event):
 def display_main_menu():
     """Displays the main menu."""
     print("\n" + "="*60)
-    print("     VENUE BLOCK - MAIN MENU")
+    print("     VENUE MANAGEMENT BLOCK - MAIN MENU")
     print("="*60)
     print("1. Add Venue")
     print("2. Show All Venues")
