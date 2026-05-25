@@ -989,7 +989,7 @@ def main():
 
 
         print("\n===================================")
-        print(" ONLINE TICKETING SYSTEM ")
+        print(" TickIt: A Ticketing System ")
         print("===================================")
         print("[1] Customer Block")
         print("[2] Venue Block")
