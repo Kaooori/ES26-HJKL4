@@ -1,5 +1,5 @@
 ====================================================
-*** TICKIT TICKETING SYSTEM INFORMATION CENTER
+ TICKIT TICKETING SYSTEM INFORMATION CENTER
 ====================================================
 
 Welcome to the TickIt!
