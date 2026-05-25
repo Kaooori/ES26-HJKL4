@@ -1,4 +1,3 @@
-# TICKETING SYSTEM INFORMATION CENTER 
 ====================================================
 *** TICKETING SYSTEM INFORMATION CENTER
 ====================================================
