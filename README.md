@@ -7,9 +7,9 @@ Welcome to the *** Ticketing System!
 This text serves as a guide on how to operate this program. Please make sure to read through it before utilizing the ticketing system.
 
 --- SYSTEM OVERVIEW ---
-At the startup of the program, you first enter the main menu. This menu includes all primary functions of the program that may edit information on Customers, Venues, Events, and Booking. Please note that customers may only access the Booking Block, while managers may access all other program functions. Manager access will be verified using a 3-digit code.
+> At the startup of the program, you first enter the main menu. This menu includes all primary functions of the program that may edit information on Customers, Venues, Events, and Booking. Please note that customers may only access the Booking Block, while managers may access all other program functions. Manager access will be verified using a 3-digit code.
 
-In each of the program functions, there is a submenu to specify the task that you wish to accomplish within that block. Please ensure that all instructions and formats are followed accordingly when inputting information. Upon the completion of your desired task, the program will automatically lead you back to the main menu should you wish to perform more tasks in other blocks.
+> In each of the program functions, there is a submenu to specify the task that you wish to accomplish within that block. Please ensure that all instructions and formats are followed accordingly when inputting information. Upon the completion of your desired task, the program will automatically lead you back to the main menu should you wish to perform more tasks in other blocks.
 
 --- SYSTEM OPERATION ---
 > MENUS
