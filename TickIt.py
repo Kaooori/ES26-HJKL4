@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 # ==================================================
-# ONLINE TICKETING SYSTEM
+# TickIt: A Ticketing System
 # ==================================================
 
 
