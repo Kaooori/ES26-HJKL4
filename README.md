@@ -1,8 +1,8 @@
 ====================================================
-*** TICKETING SYSTEM INFORMATION CENTER
+*** TICK-IT TICKETING SYSTEM INFORMATION CENTER
 ====================================================
 
-Welcome to the *** Ticketing System!
+Welcome to the Tick-It!
 
 This text serves as a guide on how to operate this program. Please make sure to read through it before utilizing the ticketing system.
 
